@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.0...v1.0.1) (2020-07-27)
+
+
+### Bug Fixes
+
+* add tests ([8a9385c](https://github.com/dword-design/nuxt-modernizr/commit/8a9385c06f27bd302a12b02a8331955d1a37217c))
+* doc ([8e867d5](https://github.com/dword-design/nuxt-modernizr/commit/8e867d5a33fd4af8c422643e3a53caaf32d38709))
+* fix deps ([dfcaee4](https://github.com/dword-design/nuxt-modernizr/commit/dfcaee4673be602b9f5f010e71b316d314fc7de7))
+
 # 1.0.0 (2020-07-26)
 
 
