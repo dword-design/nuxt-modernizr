@@ -33,16 +33,16 @@ $ yarn add nuxt-modernizr
 
 Add the module to your Nuxt.js modules list in `nuxt.config.js`:
 ```js
-{
+export default {
   ...
   modules: [
     [
       'nuxt-modernizr',
       {
         'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
-        options: ['setClasses'],
-      },
-    ],
+        options: ['setClasses']
+      }
+    ]
   ]
 }
 ```
@@ -61,6 +61,35 @@ Because we use a global variable here, it can also be accessed in contributed co
 ## Options
 This module passes the options down to the [modernizr](https://www.npmjs.com/package/modernizr) NPM package. Please refer to this for the available options.
 
+Directly:
+```js
+export default {
+  ...
+  modules: [
+    [
+      'nuxt-modernizr',
+      {
+        'feature-detects': ['css/scrollbars', 'css/overflow-scrolling']
+        options: ['setClasses']
+      }
+    ]
+  ]
+}
+```
+
+Top-level:
+```js
+export default {
+  ...
+  modules: [
+    'nuxt-modernizr'
+  ],
+  modernizr: {
+    'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
+    options: ['setClasses'],
+  }
+}
+```
 <!-- LICENSE/ -->
 ## License
 
