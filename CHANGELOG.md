@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.4...v1.0.5) (2021-02-17)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v2 ([b6a3362](https://github.com/dword-design/nuxt-modernizr/commit/b6a33624e707817f097f27d4d43c888fef7d3aff))
+
 ## [1.0.4](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.3...v1.0.4) (2021-02-17)
 
 
