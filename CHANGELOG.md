@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.3...v1.0.4) (2021-02-17)
+
+
+### Bug Fixes
+
+* upgrades ([4251a2a](https://github.com/dword-design/nuxt-modernizr/commit/4251a2af682a09a6f442763271403b538f4a6b68))
+
 ## [1.0.3](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.2...v1.0.3) (2020-12-10)
 
 
