@@ -34,7 +34,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-Adds a Modernizr build to your Nuxt app
+Adds a Modernizr build to your Nuxt.js app.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
