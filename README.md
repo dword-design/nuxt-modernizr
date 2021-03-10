@@ -96,7 +96,7 @@ Top-level:
 export default {
   ...
   modules: [
-    'nuxt-modernizr'
+    'nuxt-modernizr',
   ],
   modernizr: {
     'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
