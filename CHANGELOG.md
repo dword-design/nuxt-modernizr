@@ -1,3 +1,11 @@
+## [1.0.8](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.7...v1.0.8) (2021-03-10)
+
+
+### Bug Fixes
+
+* fix syntax ([53c844f](https://github.com/dword-design/nuxt-modernizr/commit/53c844f154b1efac5797fbb837717240933b7437))
+* update usage sample ([7706c1a](https://github.com/dword-design/nuxt-modernizr/commit/7706c1a7869855638b80d427822c6e80086322b7))
+
 ## [1.0.7](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.6...v1.0.7) (2021-03-10)
 
 
