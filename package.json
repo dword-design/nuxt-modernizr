@@ -1,7 +1,7 @@
 {
   "name": "nuxt-modernizr",
   "version": "1.0.6",
-  "description": "Adds a Modernizr build to your Nuxt app",
+  "description": "Adds a Modernizr build to your Nuxt.js app.",
   "keywords": [
     "nuxt",
     "nuxtjs",
