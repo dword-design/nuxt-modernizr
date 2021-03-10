@@ -56,14 +56,11 @@ Add the module to your Nuxt.js modules list in `nuxt.config.js`:
 export default {
   ...
   modules: [
-    [
-      'nuxt-modernizr',
-      {
-        'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
-        options: ['setClasses']
-      }
-    ]
-  ]
+    ['nuxt-modernizr', {
+      'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
+      options: ['setClasses'],
+    }],
+  ],
 }
 ```
 
@@ -86,14 +83,11 @@ Directly:
 export default {
   ...
   modules: [
-    [
-      'nuxt-modernizr',
-      {
-        'feature-detects': ['css/scrollbars', 'css/overflow-scrolling']
-        options: ['setClasses']
-      }
-    ]
-  ]
+    ['nuxt-modernizr', {
+      'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
+      options: ['setClasses'],
+    }],
+  ],
 }
 ```
 
@@ -107,7 +101,7 @@ export default {
   modernizr: {
     'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
     options: ['setClasses'],
-  }
+  },
 }
 ```
 <!-- LICENSE/ -->
