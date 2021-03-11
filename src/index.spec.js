@@ -11,6 +11,7 @@ const runTest = config => () => {
   return withLocalTmpDir(async () => {
     await outputFile('pages/index.vue', config.page)
     const nuxt = new Nuxt({
+      createRequire: 'native',
       dev: false,
       modules: [
         [
