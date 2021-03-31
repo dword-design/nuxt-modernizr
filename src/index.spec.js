@@ -6,10 +6,13 @@ import withLocalTmpDir from 'with-local-tmp-dir'
 
 let browser
 let page
+
 const runTest = config => () => {
   config = { test: noop, ...config }
+
   return withLocalTmpDir(async () => {
     await outputFile('pages/index.vue', config.page)
+
     const nuxt = new Nuxt({
       createRequire: 'native',
       dev: false,
