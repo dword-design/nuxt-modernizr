@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.12...v1.0.13) (2021-04-12)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#17](https://github.com/dword-design/nuxt-modernizr/issues/17)) ([3238098](https://github.com/dword-design/nuxt-modernizr/commit/323809862e2e243ca9c1196987a9fd442f1b0b88))
+
 ## [1.0.12](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.11...v1.0.12) (2021-03-31)
 
 
