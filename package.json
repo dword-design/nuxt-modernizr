@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@dword-design/nuxt-push-plugins": "^1.0.2",
-    "modernizr": "^3.11.3"
+    "modernizr": "^3.11.6"
   },
   "devDependencies": {
     "@dword-design/base": "^7.0.0",
