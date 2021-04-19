@@ -34,7 +34,7 @@
     "test": "base test"
   },
   "dependencies": {
-    "@dword-design/nuxt-push-plugins": "^1.0.2",
+    "@dword-design/nuxt-push-plugins": "^1.0.13",
     "modernizr": "^3.11.3"
   },
   "devDependencies": {
