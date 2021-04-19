@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.13...v1.0.14) (2021-04-19)
+
+
+### Bug Fixes
+
+* fix deprecated dependency ([#25](https://github.com/dword-design/nuxt-modernizr/issues/25)) ([5c2451f](https://github.com/dword-design/nuxt-modernizr/commit/5c2451f7d2acaff79f82ace6f4484d4e9fc82276))
+
 ## [1.0.13](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.12...v1.0.13) (2021-04-12)
 
 
