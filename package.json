@@ -1,6 +1,6 @@
 {
   "name": "nuxt-modernizr",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Adds a Modernizr build to your Nuxt.js app.",
   "keywords": [
     "browser-detection",

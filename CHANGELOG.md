@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.14...v1.0.15) (2021-04-20)
+
+
+### Bug Fixes
+
+* updated package.json[keywords] ([#26](https://github.com/dword-design/nuxt-modernizr/issues/26)) ([ad37f53](https://github.com/dword-design/nuxt-modernizr/commit/ad37f533f22ef75f7095ec88edaa99a6c8d57f5b))
+
 ## [1.0.14](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.13...v1.0.14) (2021-04-19)
 
 
