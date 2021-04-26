@@ -1,3 +1,11 @@
+## [1.0.16](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.15...v1.0.16) (2021-04-26)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v4 ([#29](https://github.com/dword-design/nuxt-modernizr/issues/29)) ([2b4df90](https://github.com/dword-design/nuxt-modernizr/commit/2b4df9061926e34d22744c937b59245a5c4319a2))
+* update dependency with-local-tmp-dir to v3 ([#27](https://github.com/dword-design/nuxt-modernizr/issues/27)) ([b9f8b8f](https://github.com/dword-design/nuxt-modernizr/commit/b9f8b8f9cb18a55606d231d728fbdc0af951f5d5))
+
 ## [1.0.15](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.14...v1.0.15) (2021-04-20)
 
 
