@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.16...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#31](https://github.com/dword-design/nuxt-modernizr/issues/31)) ([7319541](https://github.com/dword-design/nuxt-modernizr/commit/7319541d0c1f5ee001b958724a259536ac98afe5))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.16](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.15...v1.0.16) (2021-04-26)
 
 
