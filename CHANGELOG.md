@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/dword-design/nuxt-modernizr/compare/v2.0.0...v2.0.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency fs-extra to v10 ([#35](https://github.com/dword-design/nuxt-modernizr/issues/35)) ([98b84d5](https://github.com/dword-design/nuxt-modernizr/commit/98b84d54fb34a2ede2d355ce40490fdb2edbd532))
+* update dependency with-local-tmp-dir to v4 ([#36](https://github.com/dword-design/nuxt-modernizr/issues/36)) ([5045d72](https://github.com/dword-design/nuxt-modernizr/commit/5045d72b9201344f4bb05e7628618344ed1bf74a))
+
 # [2.0.0](https://github.com/dword-design/nuxt-modernizr/compare/v1.0.16...v2.0.0) (2021-05-03)
 
 
