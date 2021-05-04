@@ -1,3 +1,11 @@
+## [2.0.2](https://github.com/dword-design/nuxt-modernizr/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4 ([#32](https://github.com/dword-design/nuxt-modernizr/issues/32)) ([cc7b522](https://github.com/dword-design/nuxt-modernizr/commit/cc7b5220ae14d01c9b971c016ed1b6958b54dfc3))
+* update dependency nuxt-push-plugins to v2 ([#34](https://github.com/dword-design/nuxt-modernizr/issues/34)) ([97c5134](https://github.com/dword-design/nuxt-modernizr/commit/97c51348a71dbdedcede0906bcf98f4934362273))
+
 ## [2.0.1](https://github.com/dword-design/nuxt-modernizr/compare/v2.0.0...v2.0.1) (2021-05-04)
 
 
