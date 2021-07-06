@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/dword-design/nuxt-modernizr/compare/v2.0.6...v2.0.7) (2021-07-06)
+
+
+### Bug Fixes
+
+* update config files ([9d56e98](https://github.com/dword-design/nuxt-modernizr/commit/9d56e98b07b7d60b1b808165a509be854520e324))
+
 ## [2.0.6](https://github.com/dword-design/nuxt-modernizr/compare/v2.0.5...v2.0.6) (2021-06-29)
 
 
