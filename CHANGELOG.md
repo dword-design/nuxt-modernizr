@@ -1,3 +1,10 @@
+## [2.0.10](https://github.com/dword-design/nuxt-modernizr/compare/v2.0.9...v2.0.10) (2022-01-12)
+
+
+### Bug Fixes
+
+* update config files ([0bcf93f](https://github.com/dword-design/nuxt-modernizr/commit/0bcf93f510961e236f489b3d643ecb1e8a0e1edf))
+
 ## [2.0.9](https://github.com/dword-design/nuxt-modernizr/compare/v2.0.8...v2.0.9) (2022-01-04)
 
 
