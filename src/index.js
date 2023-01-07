@@ -1,6 +1,9 @@
 import modernizr from 'modernizr'
+import { createRequire } from 'module'
 import nuxtPushPlugins from 'nuxt-push-plugins'
 import P from 'path'
+
+const _require = createRequire(import.meta.url)
 
 export default async function (moduleOptions) {
   const options = { ...this.options.modernizr, ...moduleOptions }
@@ -10,6 +13,6 @@ export default async function (moduleOptions) {
     fileName: P.join('nuxt-modernizr', 'plugin.js'),
     mode: 'client',
     options: code,
-    src: require.resolve('./plugin.js.template'),
+    src: _require.resolve('./plugin.js.template'),
   })
 }

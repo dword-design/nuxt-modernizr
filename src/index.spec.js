@@ -4,6 +4,8 @@ import { outputFile } from 'fs-extra'
 import { Builder, Nuxt } from 'nuxt'
 import withLocalTmpDir from 'with-local-tmp-dir'
 
+import self from './index.js'
+
 let browser
 let page
 
@@ -14,11 +16,10 @@ const runTest = config => () => {
     await outputFile('pages/index.vue', config.page)
 
     const nuxt = new Nuxt({
-      createRequire: 'native',
       dev: false,
       modules: [
         [
-          '~/../src',
+          self,
           {
             'feature-detects': ['css/rgba'],
             options: ['setClasses'],
