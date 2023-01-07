@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/nuxt-modernizr/compare/v2.0.10...v3.0.0) (2023-01-07)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#84](https://github.com/dword-design/nuxt-modernizr/issues/84)) ([e1fcc1b](https://github.com/dword-design/nuxt-modernizr/commit/e1fcc1ba1cf5f7ff9dd0dd5806e2dc9236d05230))
+
+
+### BREAKING CHANGES
+
+* Drop node 12 support, move to ESM
+
 ## [2.0.10](https://github.com/dword-design/nuxt-modernizr/compare/v2.0.9...v2.0.10) (2022-01-12)
 
 
