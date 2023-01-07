@@ -22,6 +22,8 @@
   "funding": "https://github.com/sponsors/dword-design",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "type": "module",
+  "exports": "./dist/index.js",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -29,6 +31,7 @@
   "scripts": {
     "checkUnknownFiles": "base checkUnknownFiles",
     "commit": "base commit",
+    "depcheck": "base depcheck",
     "dev": "base dev",
     "lint": "base lint",
     "prepare": "base prepare",
@@ -40,15 +43,15 @@
     "nuxt-push-plugins": "^2.0.0"
   },
   "devDependencies": {
-    "@dword-design/base": "^8.0.0",
+    "@dword-design/base": "^9.2.0",
     "@dword-design/functions": "^4.0.0",
-    "@dword-design/puppeteer": "^5.0.0",
+    "@dword-design/puppeteer": "^6.0.0",
     "fs-extra": "^10.0.0",
     "nuxt": "^2.14.0",
     "with-local-tmp-dir": "^4.0.0"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "publishConfig": {
     "access": "public"
