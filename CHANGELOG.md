@@ -1,3 +1,11 @@
+## [3.0.2](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.1...v3.0.2) (2023-03-19)
+
+
+### Bug Fixes
+
+* update dependency nuxt to v2.16.2 ([bcd6216](https://github.com/dword-design/nuxt-modernizr/commit/bcd62166878f5ba68e5f09762bf5ecdb13b855a7))
+* update dependency nuxt to v2.16.3 ([a00d547](https://github.com/dword-design/nuxt-modernizr/commit/a00d547d13cc1db5c71ff5e12bfdec1bbb2e6a19))
+
 ## [3.0.1](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.0...v3.0.1) (2023-03-15)
 
 
