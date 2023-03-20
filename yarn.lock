@@ -4558,7 +4558,7 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001449, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001467:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001464, caniuse-lite@^1.0.30001467:
   version "1.0.30001467"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001467.tgz#1afc9c16ed61f50dd87139da87ca43a3e0051c77"
   integrity sha512-cEdN/5e+RPikvl9AHm4uuLXxeCNq8rFsQ+lPHTfe/OtypP3WwnVVbjn+6uBV7PaFL6xUFzTh+sSCOz1rKhcO+Q==
@@ -4567,6 +4567,11 @@ caniuse-lite@^1.0.30001400:
   version "1.0.30001466"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001466.tgz#c1e6197c540392e09709ecaa9e3e403428c53375"
   integrity sha512-ewtFBSfWjEmxUgNBSZItFSmVtvk9zkwkl1OfRZlKA8slltRN+/C/tuGVrF9styXkN36Yu3+SeJ1qkXxDEyNZ5w==
+
+caniuse-lite@^1.0.30001449:
+  version "1.0.30001468"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001468.tgz#0101837c6a4e38e6331104c33dcfb3bdf367a4b7"
+  integrity sha512-zgAo8D5kbOyUcRAgSmgyuvBkjrGk5CGYG5TYgFdpQv+ywcyEpo1LOWoG8YmoflGnh+V+UsNuKYedsoYs0hzV5A==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -11427,9 +11432,9 @@ nth-check@^2.0.1:
     boolbase "^1.0.0"
 
 nuxt-push-plugins@^2.0.0:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/nuxt-push-plugins/-/nuxt-push-plugins-2.1.6.tgz#980d13f164cd481d3ac99dc1bd1f4e7b0b52b5cc"
-  integrity sha512-nnasOcjlX/eQob5kos+yjuNPF7/xVIYNfMTHOmhX4huiirNFMJHbVgsUGRFJqU9i6kUPrNxRi/wGE2DVKcChaQ==
+  version "2.1.9"
+  resolved "https://registry.yarnpkg.com/nuxt-push-plugins/-/nuxt-push-plugins-2.1.9.tgz#bbd28867e266f81037f97790560e837c59d69e39"
+  integrity sha512-+GE5ucyISlFO2gDUcmnL9Xf+P3/S/U8dbvGePp7djT1acA2bbJ6LylN659DKUnwMRSQARtAq8hYOfvbomC64jQ==
   dependencies:
     "@dword-design/functions" "^4.0.0"
     "@nuxt/kit" "^3.0.0"
