@@ -4569,9 +4569,9 @@ caniuse-lite@^1.0.30001400:
   integrity sha512-ewtFBSfWjEmxUgNBSZItFSmVtvk9zkwkl1OfRZlKA8slltRN+/C/tuGVrF9styXkN36Yu3+SeJ1qkXxDEyNZ5w==
 
 caniuse-lite@^1.0.30001449:
-  version "1.0.30001468"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001468.tgz#0101837c6a4e38e6331104c33dcfb3bdf367a4b7"
-  integrity sha512-zgAo8D5kbOyUcRAgSmgyuvBkjrGk5CGYG5TYgFdpQv+ywcyEpo1LOWoG8YmoflGnh+V+UsNuKYedsoYs0hzV5A==
+  version "1.0.30001469"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001469.tgz#3dd505430c8522fdc9f94b4a19518e330f5c945a"
+  integrity sha512-Rcp7221ScNqQPP3W+lVOYDyjdR6dC+neEQCttoNr5bAyz54AboB4iwpnWgyi8P4YUsPybVzT4LgWiBbI3drL4g==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -6028,9 +6028,9 @@ electron-to-chromium@^1.4.251:
   integrity sha512-PqyefhybrVdjAJ45HaPLtuVaehiSw7C3ya0aad+rvmV53IVyXmYRk3pwIOb2TxTDTnmgQdn46NjMMaysx79/6Q==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.333"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.333.tgz#ebb21f860f8a29923717b06ec0cb54e77ed34c04"
-  integrity sha512-YyE8+GKyGtPEP1/kpvqsdhD6rA/TP1DUFDN4uiU/YI52NzDxmwHkEb3qjId8hLBa5siJvG0sfC3O66501jMruQ==
+  version "1.4.334"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.334.tgz#eacdcb1145534202d569610c5915b63a3fec0eb9"
+  integrity sha512-laZ1odk+TRen6q0GeyQx/JEkpD3iSZT7ewopCpKqg9bTjP1l8XRfU3Bg20CFjNPZkp5+NDBl3iqd4o/kPO+Vew==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -11432,9 +11432,9 @@ nth-check@^2.0.1:
     boolbase "^1.0.0"
 
 nuxt-push-plugins@^2.0.0:
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/nuxt-push-plugins/-/nuxt-push-plugins-2.1.10.tgz#0890959de04716d168b6e5ab6a22956d7ded01c3"
-  integrity sha512-6bn1+FkHvtJPqFhMzLbmmzL8TmKoXtR94tvNHUYvlWCJjBIwONSlETFeTz8pxyJnDNucwg2JhB9gjjYHCWOiAg==
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/nuxt-push-plugins/-/nuxt-push-plugins-2.1.11.tgz#c241b288474d6cdb4abde6db4168af5d8fd05b79"
+  integrity sha512-aqn63OBRjKL8jYFJ5bCwkJMI5Pj5JoAYmV5EkH4tfSpI14XcEcE/zGE+6Yw4V6DIVYRd8fzodOFsSPF67QFYOg==
   dependencies:
     "@dword-design/functions" "^4.0.0"
     "@nuxt/kit" "^3.0.0"
