@@ -1,3 +1,10 @@
+## [3.0.11](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.10...v3.0.11) (2023-04-09)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/functions to v4.1.7 ([27ef777](https://github.com/dword-design/nuxt-modernizr/commit/27ef777e7ad8291c382de7b0a37859fac6978882))
+
 ## [3.0.10](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.9...v3.0.10) (2023-04-08)
 
 
