@@ -1,3 +1,10 @@
+## [3.0.19](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.18...v3.0.19) (2023-04-17)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/puppeteer to v6.0.7 ([75c9aeb](https://github.com/dword-design/nuxt-modernizr/commit/75c9aeb3f7c1b705e1245c5a3cea2bf9f338e2f4))
+
 ## [3.0.18](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.17...v3.0.18) (2023-04-14)
 
 
