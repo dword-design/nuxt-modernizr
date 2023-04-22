@@ -1,3 +1,10 @@
+## [3.0.22](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.21...v3.0.22) (2023-04-22)
+
+
+### Bug Fixes
+
+* update dependency nuxt-push-plugins to v2.1.30 ([f8aa51f](https://github.com/dword-design/nuxt-modernizr/commit/f8aa51fb22864c802e249faacc71c7f993b9676d))
+
 ## [3.0.21](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.20...v3.0.21) (2023-04-22)
 
 
