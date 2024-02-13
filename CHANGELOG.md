@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.25...v4.0.0) (2024-02-13)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#129](https://github.com/dword-design/nuxt-modernizr/issues/129)) ([a0ad536](https://github.com/dword-design/nuxt-modernizr/commit/a0ad536b1de6ff3425772524b9604ca940928306))
+
+
+### BREAKING CHANGES
+
+* node.js >= 18
+
 ## [3.0.25](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.24...v3.0.25) (2023-04-29)
 
 
