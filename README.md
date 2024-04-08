@@ -58,10 +58,10 @@ Adds a Modernizr build to your Nuxt.js app.
 
 ```bash
 # npm
-$ npm install nuxt-modernizr
+$ npx nuxi module add nuxt-modernizr
 
 # Yarn
-$ yarn add nuxt-modernizr
+$ yarn nuxi module add nuxt-modernizr
 ```
 <!-- /INSTALL -->
 
@@ -165,5 +165,5 @@ Thanks a lot for your support! ❤️
 
 ## License
 
-[MIT License](https://opensource.org/licenses/MIT) © [Sebastian Landwehr](https://sebastianlandwehr.com)
+[MIT License](https://opensource.org/license/mit/) © [Sebastian Landwehr](https://sebastianlandwehr.com)
 <!-- /LICENSE -->
