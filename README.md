@@ -58,10 +58,10 @@ Adds a Modernizr build to your Nuxt.js app.
 
 ```bash
 # npm
-$ npm install nuxt-modernizr
+$ npx nuxi module add nuxt-modernizr
 
 # Yarn
-$ yarn add nuxt-modernizr
+$ yarn nuxi module add nuxt-modernizr
 ```
 <!-- /INSTALL -->
 
