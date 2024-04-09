@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/dword-design/nuxt-modernizr/compare/v4.0.0...v4.0.1) (2024-04-09)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#134](https://github.com/dword-design/nuxt-modernizr/issues/134)) ([2178e17](https://github.com/dword-design/nuxt-modernizr/commit/2178e1778742848a523e27c881a5732bfa8c33c7))
+
 # [4.0.0](https://github.com/dword-design/nuxt-modernizr/compare/v3.0.25...v4.0.0) (2024-02-13)
 
 
