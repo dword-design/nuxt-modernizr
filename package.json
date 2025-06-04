@@ -44,7 +44,7 @@
     "nuxt-push-plugins": "^2.1.34"
   },
   "devDependencies": {
-    "@dword-design/base": "^11.0.4",
+    "@dword-design/base": "^13.0.0",
     "@dword-design/base-config-nuxt-module": "^1.0.0",
     "@dword-design/functions": "^6.0.0",
     "@dword-design/puppeteer": "^7.0.0",
