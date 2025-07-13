@@ -9807,14 +9807,7 @@ load-json-file@^4.0.0:
     pify "^3.0.0"
     strip-bom "^3.0.0"
 
-load-pkg@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/load-pkg/-/load-pkg-4.0.0.tgz#f80a29aec2f6d02aadde714099fda4eea1b611f1"
-  integrity sha512-xS6uYdbUzHbwO5bExhtM8RsU6Z/fVEfZE4uZpWQOwVygLSUfXz7J97nGzJfZ+FFCZc0Weabn/wA3y1k9Q7Y4mw==
-  dependencies:
-    find-pkg "^2.0.0"
-
-"load-pkg@npm:@dword-design/load-pkg":
+load-pkg@^4.0.0, "load-pkg@npm:@dword-design/load-pkg":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@dword-design/load-pkg/-/load-pkg-4.0.0.tgz#201f76adeb44c64ed22d789591ab740573fe0a5b"
   integrity sha512-lZxKRusgIqSg2y4jLzZzMPWyhrGPGke3YYmAxj4SoJeUGV4CmvYyhJkJnfA7Yaov7GMXZi64nlhx8D809VDazg==
@@ -11431,12 +11424,19 @@ os-tmpdir@~1.0.2:
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
 
-output-files@^2.0.0, output-files@^2.0.32:
+output-files@^2.0.0:
   version "2.0.32"
   resolved "https://registry.yarnpkg.com/output-files/-/output-files-2.0.32.tgz#af5290ac2fb2681154e0546c29c9311a74708a90"
   integrity sha512-E4lArd+sN7ILmv2jAasFoXP6XGvaKGTYNKSNHBn+zcGSWzrYXye5Y5L6v2yCrDyXESGKVGrvr5fsd8TUvRYvOQ==
   dependencies:
     "@dword-design/functions" "^4.0.0"
+    fs-extra "^11.1.0"
+
+output-files@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/output-files/-/output-files-3.0.0.tgz#0c26b834646befed2bb40e460ae9c658ad5cd1c1"
+  integrity sha512-mFwRkTDiw6evbQW1G6To+Yp7tN2WOVh8ne7AyzTRWtqPU+Sza3ZhtXEO3vpLnaYPYEIUSrlILeZVp0rOmcA5Kw==
+  dependencies:
     fs-extra "^11.1.0"
 
 p-each-series@^3.0.0:

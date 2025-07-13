@@ -56,7 +56,7 @@
     "nuxt": "^3.10.1",
     "nuxt-dev-ready": "^3.0.0",
     "ora": "^8.0.1",
-    "output-files": "^2.0.32",
+    "output-files": "^3.0.0",
     "tree-kill-promise": "^3.0.14"
   },
   "engines": {
