@@ -37,7 +37,12 @@ test('valid', async ({ page }, testInfo) => {
   });
 
   const port = await getPort();
-  const nuxt = execaCommand('nuxt dev', { cwd, env: { PORT: String(port) } });
+
+  const nuxt = execaCommand('nuxt dev', {
+    cwd,
+    env: { PORT: String(port) },
+    reject: false,
+  });
 
   try {
     await nuxtDevReady(port);
