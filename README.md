@@ -69,7 +69,7 @@ $ yarn nuxi module add nuxt-modernizr
 
 Add the module to your Nuxt.js modules list in `nuxt.config.ts`:
 ```js
-export default {
+export default defineNuxtConfig({
   ...
   modules: [
     ['nuxt-modernizr', {
@@ -77,26 +77,30 @@ export default {
       options: ['setClasses'],
     }],
   ],
-}
+});
 ```
 
-Access the `Modernizr` variable in your app:
-```js
-if (process.client && Modernizr.cssscrollbar) {
-  ...
-}
+Access Modernizr via the composable in your app:
+```vue
+<script setup lang="ts">
+const modernizr = useModernizr();
+</script>
 ```
 
-Note that Modernizr only works client-side, so don't forget to check for client-side via `process.client`. If you use a linter that restricts global variables, you can use `window.Modernizr` instead.
+Note that Modernizr only works client-side. The composable returns either a Modernizr instance or null, if we are server-side. So a reasonable check would look like this:
 
-Because we use a global variable here, it can also be accessed in contributed components that need to access Modernizr. The only requirement is that this module is included in the build.
+```ts
+if (modernizr?.rgba) {
+  console.log('Browser supports rgba.'),
+}
+```
 
 ## Options
 This module passes the options down to the [modernizr](https://www.npmjs.com/package/modernizr) NPM package. Please refer to this for the available options.
 
-Directly:
-```js
-export default {
+Inline:
+```ts
+export default defineNuxtConfig({
   ...
   modules: [
     ['nuxt-modernizr', {
@@ -104,12 +108,12 @@ export default {
       options: ['setClasses'],
     }],
   ],
-}
+});
 ```
 
 Top-level:
-```js
-export default {
+```ts
+export default defineNuxtConfig({
   ...
   modules: [
     'nuxt-modernizr',
@@ -118,8 +122,9 @@ export default {
     'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
     options: ['setClasses'],
   },
-}
+});
 ```
+
 <!-- LICENSE/ -->
 ## Contribute
 

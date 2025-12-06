@@ -10,25 +10,16 @@ import endent from 'endent';
 import modernizr, { type ModernizrConfig } from 'modernizr-build';
 
 const resolver = createResolver(import.meta.url);
-declare module '@nuxt/schema' {
-  interface NuxtConfig {
-    modernizr?: Partial<ModernizrConfig>;
-  }
-  interface NuxtOptions {
-    modernizr: ModernizrConfig;
-  }
-}
 
-export default defineNuxtModule({
-  setup: async (moduleOptions, nuxt) => {
-    const options = { ...nuxt.options.modernizr, ...moduleOptions };
-
+export default defineNuxtModule<ModernizrConfig>({
+  meta: { configKey: 'modernizr', name: 'nuxt-modernizr' },
+  setup: async options => {
     const code = await new Promise(resolve =>
       modernizr.build(options, resolve),
     );
 
     addPluginTemplate({
-      filename: pathLib.join('nuxt-modernizr', 'plugin.ts'),
+      filename: pathLib.join('nuxt-modernizr', 'plugin.client.ts'),
       getContents: () => endent`
         // @ts-nocheck
 

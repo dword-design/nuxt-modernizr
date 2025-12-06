@@ -12,7 +12,7 @@ test('valid', async ({ page }, testInfo) => {
   await outputFiles(cwd, {
     'app/pages/index.vue': endent`
       <template>
-        <div :class="['foo', { 'rgba': modernizr.rgba }]" />
+        <div :class="['foo', { 'rgba': modernizr?.rgba }]" />
       </template>
 
       <script setup lang="ts">
@@ -38,7 +38,7 @@ test('valid', async ({ page }, testInfo) => {
   const nuxt = execaCommand('nuxt dev', { cwd, env: { PORT: String(port) } });
 
   try {
-    await nuxtDevReady();
+    await nuxtDevReady(port);
     await page.goto(`http://localhost:${port}`);
     await expect(page.locator('html')).toContainClass('rgba');
     await expect(page.locator('.foo')).toContainClass('rgba');

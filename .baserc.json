@@ -1,4 +1,7 @@
 {
+  "depcheckConfig": {
+    "ignoreMatches": ["@playwright/browser-chromium"]
+  },
   "name": "@dword-design/nuxt-module",
   "seeAlso": [
     { "description": "Adds email sending capability to a Nuxt.js app. Adds a server route, an injected variable, and uses nodemailer to send emails.", "repository": "nuxt-mail" },

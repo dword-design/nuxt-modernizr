@@ -1,7 +1,8 @@
-import modernizr from 'modernizr';
+import type modernizr from 'modernizr';
 
 declare global {
   var Modernizr: typeof modernizr;
 }
 
-export const useModernizr = () => globalThis.Modernizr;
+export const useModernizr = () =>
+  import.meta.client ? globalThis.Modernizr : null;
