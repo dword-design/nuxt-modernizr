@@ -12,7 +12,11 @@ import modernizr, { type ModernizrConfig } from 'modernizr-build';
 const resolver = createResolver(import.meta.url);
 
 export default defineNuxtModule<ModernizrConfig>({
-  meta: { configKey: 'modernizr', name: 'nuxt-modernizr' },
+  meta: {
+    compatibility: { nuxt: '>=3.0.0' },
+    configKey: 'modernizr',
+    name: 'nuxt-modernizr',
+  },
   setup: async options => {
     const code = await new Promise(resolve =>
       modernizr.build(options, resolve),
