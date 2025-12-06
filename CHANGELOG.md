@@ -1,3 +1,18 @@
+# [5.0.0](https://github.com/dword-design/nuxt-modernizr/compare/v4.0.1...v5.0.0) (2025-12-06)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#142](https://github.com/dword-design/nuxt-modernizr/issues/142)) ([7e4463c](https://github.com/dword-design/nuxt-modernizr/commit/7e4463cec653911406070c92f5e3a3bfe0333c66))
+* playwright config ([7e67882](https://github.com/dword-design/nuxt-modernizr/commit/7e67882b37eab3a0be602911e12e0b1c4019d0fa))
+* readme ([f694203](https://github.com/dword-design/nuxt-modernizr/commit/f694203c9b9e878e90f515968ec6058d5c9cea18))
+
+
+### BREAKING CHANGES
+
+* node.js >= 22
+* nuxt 4 (i don't think it should break anything)
+
 ## [4.0.1](https://github.com/dword-design/nuxt-modernizr/compare/v4.0.0...v4.0.1) (2024-04-09)
 
 
