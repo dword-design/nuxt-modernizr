@@ -102,12 +102,11 @@ Inline:
 ```ts
 export default defineNuxtConfig({
   ...
-  modules: [
-    ['nuxt-modernizr', {
-      'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
-      options: ['setClasses'],
-    }],
-  ],
+  modules: ['nuxt-modernizr'],
+  modernizr: {
+    'feature-detects': ['css/scrollbars', 'css/overflow-scrolling'],
+    options: ['setClasses'],
+  },
 });
 ```
 
