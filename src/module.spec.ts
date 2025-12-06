@@ -12,7 +12,9 @@ test('valid', async ({ page }, testInfo) => {
   await outputFiles(cwd, {
     'app/pages/index.vue': endent`
       <template>
-        <div :class="['foo', { 'rgba': modernizr?.rgba }]" />
+        <client-only>
+          <div :class="['foo', { 'rgba': modernizr.rgba }]" />
+        </client-only>
       </template>
 
       <script setup lang="ts">
