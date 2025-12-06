@@ -22,12 +22,23 @@
     {
       "datasourceTemplate": "github-tags",
       "fileMatch": [
-        "\\.js$"
+        "\\.ts$"
       ],
       "matchStrings": [
-        "(^|\\s)gitHubAction`(?<depName>.*?)@v(?<currentValue>.*?)`"
+        "(^|[^\\w])gitHubAction`(?<depName>.*?)@v(?<currentValue>.*?)`"
       ],
       "versioningTemplate": "npm"
+    },
+    {
+      "datasourceTemplate": "node-version",
+      "depNameTemplate": "node",
+      "fileMatch": [
+        "\\.ts$"
+      ],
+      "matchStrings": [
+        "(^|[^\\w])nodejsVersion`(?<currentValue>.*?)`"
+      ],
+      "versioningTemplate": "node"
     }
   ],
   "semanticCommitScope": null
