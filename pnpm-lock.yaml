@@ -46,8 +46,8 @@ importers:
         specifier: ^4.2.1
         version: 4.2.1(@parcel/watcher@2.5.1)(@types/node@24.10.1)(@vue/compiler-sfc@3.5.25)(cac@6.7.14)(db0@0.3.4)(eslint@9.39.1(jiti@2.6.1))(ioredis@5.8.2)(magicast@0.5.1)(meow@13.2.0)(optionator@0.9.4)(rollup@4.53.3)(terser@5.44.1)(tsx@4.21.0)(typescript@5.9.3)(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(terser@5.44.1)(tsx@4.21.0)(yaml@2.8.2))(vue-tsc@3.1.5(typescript@5.9.3))(yaml@2.8.2)
       nuxt-dev-ready:
-        specifier: ^5.0.1
-        version: 5.0.1
+        specifier: ^6.0.0
+        version: 6.0.0
       output-files:
         specifier: ^3.0.0
         version: 3.0.0
@@ -389,6 +389,10 @@ packages:
 
   '@dword-design/plugin-name-to-package-name@0.1.2':
     resolution: {integrity: sha512-kATg/RzRkq/Yv0qNJziPqwAzKstBTzuXnowH4MvAMyqW6C7o5HlgZtik3GzO0kBKCBZBoRswBSvo9AHclOTxfg==}
+
+  '@dword-design/port-ready-fork@0.0.3':
+    resolution: {integrity: sha512-nhfPIpKKuAmHoiCaezWlijoLee2RPxdzLlgx0zGdEq5LAyPEPcot7qqc0xIkBNIeOmG+1TVJMKvaV9CSFOQOQg==}
+    engines: {node: '>=6'}
 
   '@dxup/nuxt@0.2.2':
     resolution: {integrity: sha512-RNpJjDZs9+JcT9N87AnOuHsNM75DEd58itADNd/s1LIF6BZbTLZV0xxilJZb55lntn4TYvscTaXLCBX2fq9CXg==}
@@ -2151,8 +2155,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  axios@1.13.2:
-    resolution: {integrity: sha512-VPk9ebNqPcy5lRGuSlKx752IlDatOjT9paPlm8A7yOuW2Fbvp4X3JznJtT4f0GzGLLiWE9W8onz51SqLYwzGaA==}
+  axios@1.13.6:
+    resolution: {integrity: sha512-ChTCHMouEe2kn713WHbQGcuYrr6fXTBiu460OTwWrWob16g1bXn4vtz07Ope7ewMozJAnEquLk5lWQWtBig9DQ==}
 
   b4a@1.7.3:
     resolution: {integrity: sha512-5Q2mfq2WfGuFp3uS//0s6baOJLMoVduPYVeNmDYxu5OUA1/cBfvr2RIS7vi62LdNj/urk1hfmj867I3qt6uZ7Q==}
@@ -3526,6 +3530,7 @@ packages:
   git-raw-commits@2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@8.1.1:
@@ -4660,9 +4665,9 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nuxt-dev-ready@5.0.1:
-    resolution: {integrity: sha512-gC4kYDoTqITfpzUXsIj28IPuMXlVDHgn6uaob5Jid0uB8hLg/JDmeA7HkJ8Ayje07wJsP6DtF6yhqRi4YoX5tQ==}
-    engines: {node: '>=20'}
+  nuxt-dev-ready@6.0.0:
+    resolution: {integrity: sha512-yxPli2O9SBHG7/P3GRi1Rfy0oiNYsWFiUT3UiUMXhQnp+xLK6JCEjOhXYDpgQZG2pWhMMLNO2iamx7fQHhlQ9w==}
+    engines: {node: '>=22'}
 
   nuxt@4.2.1:
     resolution: {integrity: sha512-OE5ONizgwkKhjTGlUYB3ksE+2q2/I30QIYFl3N1yYz1r2rwhunGA3puUvqkzXwgLQ3AdsNcigPDmyQsqjbSdoQ==}
@@ -4865,9 +4870,9 @@ packages:
     resolution: {integrity: sha512-raZs7eMN7mRqP2UEaXMSxDAkSqwN41J0yXCV1AVU9PbB4t7aBAj/6nDPgFcUikX+4GeBgXWLxITAn9hr+bdhrg==}
     engines: {node: '>=4'}
 
-  p-wait-for@5.0.2:
-    resolution: {integrity: sha512-lwx6u1CotQYPVju77R+D0vFomni/AqRfqLmqQ8hekklqZ6gAY9rONh7lBQ0uxWMkC2AuX9b2DVAl8To0NyP1JA==}
-    engines: {node: '>=12'}
+  p-wait-for@6.0.0:
+    resolution: {integrity: sha512-2kKzMtjS8TVcpCOU/gr3vZ4K/WIyS1AsEFXFWapM/0lERCdyTbB6ZeuCIp+cL1aeLZfQoMdZFCBTHiK4I9UtOw==}
+    engines: {node: '>=20'}
 
   package-json-from-dist@1.0.1:
     resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
@@ -5033,10 +5038,6 @@ packages:
   pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
-
-  port-ready@0.1.0:
-    resolution: {integrity: sha512-6IJ0anhRxATv5dZ5PJgYOwDbl3Jeu2GqnB/gLngC16Mur/4/ELdkIrg3D5RNS9bfek+r10rs3206+Jgv65Z+bw==}
-    engines: {node: '>=6'}
 
   postcss-calc@10.1.1:
     resolution: {integrity: sha512-NYEsLHh8DgG/PRH2+G9BTuUdtf9ViS+vdoQ0YA5OQdGsfN4ztiwtDWNtBl9EKeqNMFnIu8IKZ0cLxEQ5r5KVMw==}
@@ -6122,6 +6123,7 @@ packages:
 
   unplugin-vue-router@0.16.2:
     resolution: {integrity: sha512-lE6ZjnHaXfS2vFI/PSEwdKcdOo5RwAbCKUnPBIN9YwLgSWas3x+qivzQvJa/uxhKzJldE6WK43aDKjGj9Rij9w==}
+    deprecated: 'Merged into vuejs/router. Migrate: https://router.vuejs.org/guide/migration/v4-to-v5.html'
     peerDependencies:
       '@vue/compiler-sfc': ^3.5.17
       vue-router: ^4.6.0
@@ -7273,6 +7275,12 @@ snapshots:
   '@dword-design/plugin-name-to-package-name@0.1.2':
     dependencies:
       is-absolute: 1.0.0
+
+  '@dword-design/port-ready-fork@0.0.3':
+    dependencies:
+      connect-port: 0.0.1
+      p-timeout: 2.0.1
+      p-wait-for: 1.0.0
 
   '@dxup/nuxt@0.2.2(magicast@0.5.1)':
     dependencies:
@@ -9120,7 +9128,7 @@ snapshots:
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
-  axios@1.13.2:
+  axios@1.13.6:
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.5
@@ -11705,11 +11713,11 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nuxt-dev-ready@5.0.1:
+  nuxt-dev-ready@6.0.0:
     dependencies:
-      axios: 1.13.2
-      p-wait-for: 5.0.2
-      port-ready: 0.1.0
+      axios: 1.13.6
+      p-wait-for: 6.0.0
+      port-ready: '@dword-design/port-ready-fork@0.0.3'
     transitivePeerDependencies:
       - debug
 
@@ -12061,9 +12069,7 @@ snapshots:
 
   p-wait-for@1.0.0: {}
 
-  p-wait-for@5.0.2:
-    dependencies:
-      p-timeout: 6.1.4
+  p-wait-for@6.0.0: {}
 
   package-json-from-dist@1.0.1: {}
 
@@ -12199,12 +12205,6 @@ snapshots:
       semver-compare: 1.0.0
 
   pluralize@8.0.0: {}
-
-  port-ready@0.1.0:
-    dependencies:
-      connect-port: 0.0.1
-      p-timeout: 2.0.1
-      p-wait-for: 1.0.0
 
   postcss-calc@10.1.1(postcss@8.5.6):
     dependencies:
