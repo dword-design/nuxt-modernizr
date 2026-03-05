@@ -52,8 +52,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       tree-kill-promise:
-        specifier: ^4.0.0
-        version: 4.0.0
+        specifier: ^5.0.0
+        version: 5.0.0
 
 packages:
 
@@ -3526,6 +3526,7 @@ packages:
   git-raw-commits@2.0.11:
     resolution: {integrity: sha512-VnctFhw+xfj8Va1xtfEqCUD2XDrbAPSJx+hSrE5K7fGdjZruW7XV+QOrN7LF/RJyvspRiD2I0asWsxFp0ya26A==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer maintained. For the JavaScript API, please use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@8.1.1:
@@ -5940,9 +5941,9 @@ packages:
     resolution: {integrity: sha512-aXJDbk6SnumuaZSANd21XAo15ucCDE38H4fkqiGsc3MhCK+wOlZvLP9cB/TvpHT0mOyWgC4Z8EwRlzqYSUzdsA==}
     engines: {node: '>= 0.4'}
 
-  tree-kill-promise@4.0.0:
-    resolution: {integrity: sha512-k6PxcH/5e+dJiTyw3KUO0Pfxav4H10M+JMFgssaWqnTweAP5oVRNuWbWoYJgowbRdi46yXV9YvyVnDwGGvSCvw==}
-    engines: {node: '>=20'}
+  tree-kill-promise@5.0.0:
+    resolution: {integrity: sha512-KHqu1wzZCXYhwE26pj+g49VRnpJ68rtaIr7ycosNpoAw8rwpZSOwek1l9M99wFfFbuEO6WFeXGla0MGlDCTSLQ==}
+    engines: {node: '>=22'}
 
   tree-kill@1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
@@ -6122,6 +6123,7 @@ packages:
 
   unplugin-vue-router@0.16.2:
     resolution: {integrity: sha512-lE6ZjnHaXfS2vFI/PSEwdKcdOo5RwAbCKUnPBIN9YwLgSWas3x+qivzQvJa/uxhKzJldE6WK43aDKjGj9Rij9w==}
+    deprecated: 'Merged into vuejs/router. Migrate: https://router.vuejs.org/guide/migration/v4-to-v5.html'
     peerDependencies:
       '@vue/compiler-sfc': ^3.5.17
       vue-router: ^4.6.0
@@ -13135,7 +13137,7 @@ snapshots:
 
   traverse@0.6.8: {}
 
-  tree-kill-promise@4.0.0:
+  tree-kill-promise@5.0.0:
     dependencies:
       tree-kill: 1.2.2
 
