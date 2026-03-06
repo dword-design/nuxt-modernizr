@@ -49,8 +49,8 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1
       output-files:
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^4.0.0
+        version: 4.0.0
       tree-kill-promise:
         specifier: ^4.0.0
         version: 4.0.0
@@ -4748,6 +4748,10 @@ packages:
   output-files@3.0.0:
     resolution: {integrity: sha512-mFwRkTDiw6evbQW1G6To+Yp7tN2WOVh8ne7AyzTRWtqPU+Sza3ZhtXEO3vpLnaYPYEIUSrlILeZVp0rOmcA5Kw==}
     engines: {node: '>=18'}
+
+  output-files@4.0.0:
+    resolution: {integrity: sha512-WfOFV7mEwTisw3atSd2PcMx0+6ZrQk3iYRu6mwQS54XN6d3I5PWqDoT4T6nBdIxiDQFNyEoLOJvciyeCMLcaCQ==}
+    engines: {node: '>=22'}
 
   oxc-minify@0.96.0:
     resolution: {integrity: sha512-dXeeGrfPJJ4rMdw+NrqiCRtbzVX2ogq//R0Xns08zql2HjV3Zi2SBJ65saqfDaJzd2bcHqvGWH+M44EQCHPAcA==}
@@ -11921,6 +11925,10 @@ snapshots:
   os-tmpdir@1.0.2: {}
 
   output-files@3.0.0:
+    dependencies:
+      fs-extra: 11.3.2
+
+  output-files@4.0.0:
     dependencies:
       fs-extra: 11.3.2
 
