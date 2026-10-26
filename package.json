@@ -60,7 +60,7 @@
     "execa": "^9.6.1",
     "get-port": "^7.1.0",
     "nuxt": "^4.2.1",
-    "nuxt-dev-ready": "^5.0.1",
+    "nuxt-dev-ready": "^6.0.0",
     "output-files": "^3.0.0",
     "tree-kill-promise": "^4.0.0"
   },
