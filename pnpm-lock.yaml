@@ -22,8 +22,8 @@ importers:
         version: modernizr@3.13.1
     devDependencies:
       '@dword-design/base':
-        specifier: ^16.1.0
-        version: 16.2.7(@typescript-eslint/parser@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/utils@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-core@3.5.45)(esbuild@0.28.2)(sass@1.97.3)
+        specifier: ^17.0.0
+        version: 17.0.1(@typescript-eslint/parser@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/utils@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-core@3.5.45)(esbuild@0.28.2)(sass@1.97.3)
       '@dword-design/base-config-nuxt-module':
         specifier: ^5.0.0
         version: 5.0.3(e05db8227362e7d8ccaf367e730f35a0)
@@ -348,6 +348,11 @@ packages:
 
   '@dword-design/base@16.2.7':
     resolution: {integrity: sha512-L+/bLVlOMZLjCx4aulgqAN7wKDGFThni4LW+7Y/IYlLzinTeJNZE9MCmB8ZToVhrEtIPeHSobzumLDiaf/U59w==}
+    engines: {node: '>=22'}
+    hasBin: true
+
+  '@dword-design/base@17.0.1':
+    resolution: {integrity: sha512-5MeD4mk+qAYd0+7JF0HUSWYSNPtNB3rGdI8cvLhptAQpgn7+CKe0UswReWqTKG9U65pJKKJ3WTV9KyuJrHUHtQ==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -2930,13 +2935,25 @@ packages:
     resolution: {integrity: sha512-NCJ8B0De9ILI+ClVwqJn3J6Dj1TKM9xmAWXTGu/ThQePMpt83KXt1abed+ndBEV5AbnwGmU7PVx1jpDH69oklg==}
     engines: {node: '>=18'}
 
+  depcheck-detector-bin-name@3.0.0:
+    resolution: {integrity: sha512-8zB4mBcbTOaR1CN0VfORs6WMbLXyQJYkKPkwB08fhgxazEzTq0YDRjQ5BVegnP+0SdZ/+p/wT7a/2yIOZ6ClrA==}
+    engines: {node: '>=22'}
+
   depcheck-detector-execa@4.0.3:
     resolution: {integrity: sha512-CBL7zB93VrQwBUYCSiiiceX0XSnpFYGj6jPx/9ZKGLLM/FzIb2lNbd9ZuXzT6eKVGkZPSBPJnpuefy5MF/FgpQ==}
     engines: {node: '>=18'}
 
+  depcheck-detector-execa@6.0.0:
+    resolution: {integrity: sha512-2CcIOyop4aMN3tyGM+gtde7UHNwC1c14Qll2+FMywltgyd/3Pc9Ja5OD4Dxlo9RgaVTntSYAHrbXOV/df7vRFw==}
+    engines: {node: '>=22'}
+
   depcheck-detector-package-name@3.0.4:
     resolution: {integrity: sha512-NJpk3gOZ+UhAs3O2nebM7tWQCiXG95/d+ZovyoD5dObbGxqvGr1NSFyz4NXgmV7BP/42z5Mr6L3GRbcJ1hU+3w==}
     engines: {node: '>=14'}
+
+  depcheck-detector-package-name@4.0.0:
+    resolution: {integrity: sha512-fuRHPXVmoXPkKGvIEn4s8SkQ1MHTDYq56su5OPWMT+3/8u4YtXxucbpMzxoyI0241U1yB2Onp92iqPelKytxAw==}
+    engines: {node: '>=22'}
 
   depcheck-package-name@4.0.1:
     resolution: {integrity: sha512-Jt6XKYnjtC9AMP8+lD+I7J+Fr39e9Ll6O7xg6pzqhxFiCtUuDFPLrY89bMLtXBqFvzTE8h071K33CshYJmRuIg==}
@@ -5128,6 +5145,10 @@ packages:
     resolution: {integrity: sha512-5YeQpY/R7ALs6pApzu2cg3xAzHWLiJ1mKr0eQOa4/toQDoIfjR3vxbwKIsrK0NhAlEQUJVzv/eYDXzoG4DG6Ig==}
     engines: {node: '>=18'}
 
+  package-name-regex@5.0.0:
+    resolution: {integrity: sha512-VTLjl9bj0CNN3V5VnR8szmF7Jbj0ZqMes4A+7sW1S/3jhsYVW6M4yE19FQFFJ4hi3ydPIX3OelfXV3eDoGmyMA==}
+    engines: {node: '>=22'}
+
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
@@ -5150,6 +5171,9 @@ packages:
   parse-ms@4.0.0:
     resolution: {integrity: sha512-TXfryirbmq34y8QBwgqCVLi+8oA3oWx2eAnSn62ITyEhEYaWRlVZ2DvMM9eZbMs/RfxPu/PK/aBLyGj4IrqMHw==}
     engines: {node: '>=18'}
+
+  parse-packagejson-name@1.1.0:
+    resolution: {integrity: sha512-FAl0VlP/AH3kCUKd/tPvtBazuV34Dt6VE4B7QLLyI9/iimfOlCOsCWSB9r/Du/Kt2w3s+2W1QZDkA3dG4zmZqw==}
 
   parse-packagejson-name@1.1.1:
     resolution: {integrity: sha512-MBkHgxwvoN1nQ0r7ITjLoCGPdiIiJEsadjtvVNBa6qxEyNThymy+IJulsy0nFBcVsBHDPiDbIzBgk7OSO0BbJQ==}
@@ -7567,6 +7591,78 @@ snapshots:
       package-name-regex: 4.0.3
       parse-git-config: '@dword-design/parse-git-config@0.0.1'
       parse-packagejson-name: 1.1.1
+      plugin-name-to-package-name: '@dword-design/plugin-name-to-package-name@0.1.2'
+      safe-readfile: 1.0.2
+      semantic-release: 25.0.9(typescript@5.9.3)
+      sort-keys: 5.1.0
+      sort-package-json: 2.15.1
+      spdx-expression-parse: 4.0.0
+      spdx-license-list: 6.12.0
+      tagged-template-noop: 2.1.1
+      tsx: 4.23.15
+      type-fest: 4.41.0
+      typescript: 5.9.3
+      vue-tsc: 2.2.12(typescript@5.9.3)
+      yaml: 2.9.1
+    transitivePeerDependencies:
+      - '@eslint/json'
+      - '@types/eslint'
+      - '@types/node'
+      - '@typescript-eslint/parser'
+      - '@typescript-eslint/utils'
+      - '@vue/compiler-core'
+      - esbuild
+      - eslint-import-resolver-node
+      - eslint-plugin-import
+      - kerberos
+      - monocart-coverage-reports
+      - sass
+      - supports-color
+
+  '@dword-design/base@17.0.1(@typescript-eslint/parser@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/utils@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-core@3.5.45)(esbuild@0.28.2)(sass@1.97.3)':
+    dependencies:
+      '@commitlint/cli': 18.6.1(typescript@5.9.3)
+      '@commitlint/config-conventional': 18.6.3
+      '@dword-design/base-config-node': 5.0.7(@typescript-eslint/parser@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/utils@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-core@3.5.45)(esbuild@0.28.2)(sass@1.97.3)
+      '@dword-design/ci': 5.0.0
+      '@dword-design/defu': 1.0.3
+      '@dword-design/dotenv-json-extended': 5.3.0
+      '@dword-design/eslint-config': 9.0.20(@typescript-eslint/parser@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/utils@8.72.2(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(jiti@2.7.0)(typescript@5.9.3)
+      '@dword-design/personal-data': 3.0.0
+      '@semantic-release/changelog': 6.0.3(semantic-release@25.0.9(typescript@5.9.3))
+      '@semantic-release/git': 10.0.1(semantic-release@25.0.9(typescript@5.9.3))
+      ajv: 8.20.0
+      braces: 3.0.3
+      c8: 10.1.3
+      change-case: 5.4.4
+      commitizen: 4.3.2(typescript@5.9.3)
+      cosmiconfig: 9.0.2(typescript@5.9.3)
+      cz-conventional-changelog: 3.3.0(typescript@5.9.3)
+      depcheck: '@dword-design/depcheck@0.0.12'
+      depcheck-detector-bin-name: 3.0.0
+      depcheck-detector-execa: 6.0.0
+      depcheck-detector-package-name: 4.0.0
+      depcheck-package-name: 5.0.0
+      endent: '@dword-design/endent@1.4.7'
+      eslint: 10.14.0(jiti@2.7.0)
+      execa: 9.6.1
+      find-up: 7.0.0
+      fs-extra: 11.4.1
+      get-projectz-readme-section-regex: 4.0.0
+      globby: 14.1.0
+      hosted-git-info: 8.1.0
+      husky: 8.0.3
+      ignore: 7.0.14
+      ini: 5.0.0
+      is-ci: 4.1.0
+      jiti: 2.7.0
+      lint-staged: 16.4.0
+      lodash-es: 4.18.1
+      make-cli: 4.0.8
+      output-files: 3.0.0
+      package-name-regex: 5.0.0
+      parse-git-config: '@dword-design/parse-git-config@0.0.1'
+      parse-packagejson-name: 1.1.0
       plugin-name-to-package-name: '@dword-design/plugin-name-to-package-name@0.1.2'
       safe-readfile: 1.0.2
       semantic-release: 25.0.9(typescript@5.9.3)
@@ -10423,6 +10519,11 @@ snapshots:
       fs-extra: 11.4.1
       module-root: '@dword-design/module-root@0.2.5'
 
+  depcheck-detector-bin-name@3.0.0:
+    dependencies:
+      fs-extra: 11.4.1
+      module-root: '@dword-design/module-root@0.2.5'
+
   depcheck-detector-execa@4.0.3:
     dependencies:
       '@dword-design/functions': 6.0.2
@@ -10430,7 +10531,17 @@ snapshots:
       module-root: '@dword-design/module-root@0.2.5'
       parse-packagejson-name: 1.1.1
 
+  depcheck-detector-execa@6.0.0:
+    dependencies:
+      '@babel/types': 7.29.14
+      fs-extra: 11.4.1
+      lodash-es: 4.18.1
+      module-root: '@dword-design/module-root@0.2.5'
+      parse-packagejson-name: 1.1.1
+
   depcheck-detector-package-name@3.0.4: {}
+
+  depcheck-detector-package-name@4.0.0: {}
 
   depcheck-package-name@4.0.1:
     dependencies:
@@ -12915,6 +13026,8 @@ snapshots:
 
   package-name-regex@4.0.3: {}
 
+  package-name-regex@5.0.0: {}
+
   parent-module@1.0.1:
     dependencies:
       callsites: 3.1.0
@@ -12942,6 +13055,8 @@ snapshots:
       type-fest: 4.41.0
 
   parse-ms@4.0.0: {}
+
+  parse-packagejson-name@1.1.0: {}
 
   parse-packagejson-name@1.1.1: {}
 
