@@ -52,8 +52,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       tree-kill-promise:
-        specifier: ^4.0.0
-        version: 4.0.0
+        specifier: ^5.0.0
+        version: 5.0.0
 
 packages:
 
@@ -5441,6 +5441,7 @@ packages:
   postcss-selector-parser@7.2.0:
     resolution: {integrity: sha512-Khh/tERVBn0I1499dvBSHY0pWJloMJWUxDsOBM0CCDPAcVZ10Jl2L1qy1f19uEX22spa8Mv7DCdEQJc0cGwBhQ==}
     engines: {node: '>=4'}
+    deprecated: Double-escapes CSS Modules class names (#362). Use 7.2.1.
 
   postcss-svgo@7.1.3:
     resolution: {integrity: sha512-2QfoFOYMcj8lwcVEf9WeTlkVIAm7u2QvOEhMzkQU3KUhhGX/l8hVV9EtjMv4iq3E9iI3OeeMN0YoMLbGusuigw==}
@@ -6231,9 +6232,9 @@ packages:
     resolution: {integrity: sha512-aXJDbk6SnumuaZSANd21XAo15ucCDE38H4fkqiGsc3MhCK+wOlZvLP9cB/TvpHT0mOyWgC4Z8EwRlzqYSUzdsA==}
     engines: {node: '>= 0.4'}
 
-  tree-kill-promise@4.0.0:
-    resolution: {integrity: sha512-k6PxcH/5e+dJiTyw3KUO0Pfxav4H10M+JMFgssaWqnTweAP5oVRNuWbWoYJgowbRdi46yXV9YvyVnDwGGvSCvw==}
-    engines: {node: '>=20'}
+  tree-kill-promise@5.0.0:
+    resolution: {integrity: sha512-KHqu1wzZCXYhwE26pj+g49VRnpJ68rtaIr7ycosNpoAw8rwpZSOwek1l9M99wFfFbuEO6WFeXGla0MGlDCTSLQ==}
+    engines: {node: '>=22'}
 
   tree-kill@1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
@@ -14025,7 +14026,7 @@ snapshots:
 
   traverse@0.6.8: {}
 
-  tree-kill-promise@4.0.0:
+  tree-kill-promise@5.0.0:
     dependencies:
       tree-kill: 1.2.2
 
